@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "next/babel",
+    "stage-0"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "src": "./src",
+        "components": "./src/components",
+        "helpers":    "./src/helpers"
+      }
+    }]
+  ]
+}
